@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestations - IPC Carrosserie</title>
+    <link rel="stylesheet" href="Prestations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo">
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="prestations.html">Prestations</a></li>
+                    <li><a href="horaires.html">Horaires</a></li>
+                    <li><a href="https://www.google.fr/maps/place/IPC+Carrosserie+Sas/@49.849381,2.7012067,17z/data=!3m1!4b1!4m6!3m5!1s0x47e7f12ca85385f5:0x9559b752a2420c0d!8m2!3d49.8493776!4d2.7037816!16s%2Fg%2F11spw5nfln?entry=ttu">Localisation</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Nos Prestations</h1>
+            <div class="services">
+                <div class="service" style="background-image: url('images/reparation.jpg');" data-service="Réparation de Carrosserie">
+                    <h3>Réparation de Carrosserie</h3>
+                    <p>Nous offrons des services complets de réparation de carrosserie pour tous types de véhicules. Nos experts garantissent un travail de haute qualité.</p>
+                </div>
+                <div class="service" style="background-image: url('images/peinture.jpg');" data-service="Peinture Automobile">
+                    <h3>Peinture Automobile</h3>
+                    <p>Nos ateliers sont équipés pour réaliser des peintures personnalisées et des retouches parfaites, redonnant à votre véhicule son éclat d'origine.</p>
+                </div>
+                <div class="service" style="background-image: url('images/revision.jpg');" data-service="Entretien Régulier">
+                    <h3>Entretien Régulier</h3>
+                    <p>Nous proposons des forfaits d'entretien régulier pour assurer que votre véhicule reste en parfait état de marche tout au long de l'année.</p>
+                </div>
+                <div class="service" style="background-image: url('images/debossage.jpg');" data-service="Débosselage Sans Peinture">
+                    <h3>Débosselage Sans Peinture</h3>
+                    <p>Notre service de débosselage sans peinture répare les petites bosses sans endommager la peinture d'origine du véhicule.</p>
+                </div>
+                <div class="service" style="background-image: url('images/lustration.jpg');" data-service="Polissage et Lustrage">
+                    <h3>Polissage et Lustrage</h3>
+                    <p>Nous offrons des services de polissage et de lustrage pour redonner à votre véhicule un aspect neuf et brillant.</p>
+                </div>
+                <div class="service" style="background-image: url('images/vitre.jpg');" data-service="Remplacement de Vitres">
+                    <h3>Remplacement de Vitres</h3>
+                    <p>Nous remplaçons les vitres de votre véhicule de manière rapide et efficace, en utilisant des matériaux de haute qualité.</p>
+                </div>
+                <div class="service" style="background-image: url('images/pneus.jpg');" data-service="Changement de Pneus">
+                    <h3>Changement de Pneus</h3>
+                    <p>Nous offrons des services de changement de pneus, équilibrage et alignement pour garantir une conduite sûre et confortable.</p>
+                </div>
+                <div class="service" style="background-image: url('images/lavage.jpg');" data-service="Lavage Complet">
+                    <h3>Lavage Complet</h3>
+                    <p>Nos services de lavage complet comprennent le nettoyage intérieur et extérieur pour que votre véhicule soit toujours propre et brillant.</p>
+                </div>
+                <div class="service" style="background-image: url('images/climatisation.jpg');" data-service="Entretien Climatisation">
+                    <h3>Entretien Climatisation</h3>
+                    <p>Nous offrons des services d'entretien et de recharge de la climatisation pour assurer un confort optimal dans votre véhicule.</p>
+                </div><div class="service" style="background-image: url('images/climatisation.jpg');" data-service="Entretien Climatisation">
+                    <h3>Location van 9 place</h3>
+                    <p></p>
+                </div><div class="service" style="background-image: url('images/climatisation.jpg');" data-service="Entretien Climatisation">
+                    <h3>Entretien Climatisation</h3>
+                    <p>Nous offrons des services d'entretien et de recharge de la climatisation pour assurer un confort optimal dans votre véhicule.</p>
+                </div><div class="service" style="background-image: url('images/climatisation.jpg');" data-service="Entretien Climatisation">
+                    <h3>Entretien Climatisation</h3>
+                    <p>Nous offrons des services d'entretien et de recharge de la climatisation pour assurer un confort optimal dans votre véhicule.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="serviceModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-section links">
+                <h2>Contact</h2>
+                <ul>
+                    <li><a href="tel:+33687523369">Téléphone: 06.87.52.33.69</a></li>
+                    <li><a href="mailto:IPC.Carrosserie@hotmail.com">Mail: IPC.Carrosserie@hotmail.com</a></li>
+                </ul>
+            </div>
+            <div class="footer-section socials">
+                <h2>Suivez-nous</h2>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/patrickcordecarrosserie/" target="_blank"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="Prestations.js"></script>
+</body>
+</html>
