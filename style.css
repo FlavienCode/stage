@@ -137,10 +137,31 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.image-wrapper {
+    position: relative;
+}
 .gallery-container img {
     width: 300px;
     height: auto;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.click-indicator {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: none;
+    font-size: 14px;
+}
+
+.image-wrapper:hover .click-indicator {
+    display: block;
 }
 
 /* Ajouter les styles de Font Awesome si vous ne l'avez pas déjà fait */
