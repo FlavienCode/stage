@@ -28,39 +28,40 @@
         <div class="container">
             <h1>Nos Prestations</h1>
             <div class="services">
-                <div class="service" style="background-image: url('images/Carroserie.jpg');" data-service="Réparation de Carrosserie">
+                <!-- Ajoutez les images et descriptions de services ici -->
+                <div class="service" style="background-image: url('images/reparation.jpg');" data-service="Réparation de Carrosserie">
                     <h3>Réparation de Carrosserie</h3>
                     <p>Des services complets de réparation et carrosserie pour tous types de véhicules, garantissent un travail de haute qualité.</p>
                 </div>
-                <div class="service" style="background-image: url('painter.jpg');" data-service="Peinture Automobile">
+                <div class="service" style="background-image: url('images/peinture.jpg');" data-service="Peinture Automobile">
                     <h3>Peinture Automobile</h3>
                     <p>Nos ateliers sont équipés pour réaliser des peintures personnalisées ou d’origine, redonnant à votre véhicule son éclat d'origine.</p>
                 </div>
-                <div class="service" style="background-image: url('img/entretien.jpg');" data-service="Entretien Régulier">
+                <div class="service" style="background-image: url('images/revision.jpg');" data-service="Entretien Régulier">
                     <h3>Entretien Régulier</h3>
                     <p>Nous proposons des forfaits d'entretien régulier pour assurer que votre véhicule reste en parfait état de marche tout au long de l'année.</p>
                 </div>
-                <div class="service" style="background-image: url('img/deduction.jpg');" data-service="Débosselage Sans Peinture">
+                <div class="service" style="background-image: url('images/debossage.jpg');" data-service="Débosselage Sans Peinture">
                     <h3>Débosselage Sans Peinture</h3>
                     <p>Notre service de débosselage sans peinture répare les petites bosses sans endommager la peinture d'origine du véhicule.</p>
                 </div>
-                <div class="service" style="background-image: url('img/polish.jpg');" data-service="Polissage et Lustrage">
+                <div class="service" style="background-image: url('images/peintureapres.jpg');" data-service="Polissage et Lustrage">
                     <h3>Polissage et Lustrage</h3>
                     <p>Des services de polissage et de lustrage pour redonner à votre véhicule un aspect neuf et brillant.</p>
                 </div>
-                <div class="service" style="background-image: url('img/vitre.jpg');" data-service="Remplacement de Vitres">
+                <div class="service" style="background-image: url('images/vitre.jpg');" data-service="Remplacement de Vitres">
                     <h3>Remplacement de Vitres</h3>
                     <p>Remplacement de tous vitrage sur votre véhicule de manière rapide et efficace, en utilisant des matériaux de haute qualité.</p>
                 </div>
-                <div class="service" style="background-image: url('img/pneus.jpg');" data-service="Changement de Pneus">
+                <div class="service" style="background-image: url('images/pneus.jpg');" data-service="Changement de Pneus">
                     <h3>Changement de Pneus</h3>
-                    <p>Montage de pneus, équilibrage,valve et alignement pour garantir une conduite sûre et confortable.</p>
+                    <p>Montage de pneus, équilibrage, valve et alignement pour garantir une conduite sûre et confortable.</p>
                 </div>
-                <div class="service" style="background-image: url('img/lavage.jpg');" data-service="Lavage Complet">
-                    <h3>Renovation Phare</h3>
-                    <p>La renovation ,des optiques de phare permet de retrouver la transparence d'origine.</p>
+                <div class="service" style="background-image: url('images/lustration.jpg');" data-service="Rénovation Phare">
+                    <h3>Rénovation Phare</h3>
+                    <p>La rénovation des optiques de phare permet de retrouver la transparence d'origine.</p>
                 </div>
-                <div class="service" style="background-image: url('img/climatisation.jpg');" data-service="Entretien Climatisation">
+                <div class="service" style="background-image: url('images/climatisation.jpg');" data-service="Entretien Climatisation">
                     <h3>Entretien Climatisation</h3>
                     <p>Changement du filtre habitacle et entretien de la climatisation pour assurer un confort optimal dans votre véhicule.</p>
                 </div>
@@ -72,9 +73,32 @@
         <div class="modal-content">
             <span class="close">&times;</span>
             <h2 id="modalTitle"></h2>
+            <div class="carousel">
+                <div class="carousel-slide">
+                    <img id="modalImage1" src="images/Carroserie.jpg" alt="Service Image 1">
+                </div>
+                <div class="carousel-slide">
+                    <img id="modalImage2" src="images/climatisation.jpg" alt="Service Image 2">
+                </div>
+                <div class="carousel-slide">
+                    <img id="modalImage3" src="images/lavage.jpg" alt="Service Image 3">
+                </div>
+            </div>
             <p id="modalDescription"></p>
+            <form id="contactForm">
+                <h3>Contactez-nous pour plus d'informations</h3>
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
         </div>
     </div>
+    
+    
 
     <footer class="footer">
         <div class="container">

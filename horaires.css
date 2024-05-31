@@ -1,3 +1,80 @@
+/* Réinitialisation des marges et des rembourrages */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Style de l'en-tête */
+.header {
+    background: linear-gradient(45deg, #FFA500, #FF0000);
+    color: #FFFFFF; /* Blanc */
+    padding: 20px 0; /* Espacement intérieur en haut et en bas */
+}
+
+.header .container {
+    max-width: 1200px; /* Largeur maximale du contenu */
+    margin: 0 auto; /* Centrer le contenu horizontalement */
+    display: flex;
+    justify-content: space-between; /* Espacement égal entre les éléments */
+    align-items: center; /* Aligner les éléments verticalement */
+}
+
+.header .logo img {
+    width: 200px; /* Largeur du logo */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+
+.menu ul {
+    list-style: none; /* Supprimer les puces de liste */
+    display: flex; /* Disposer les éléments de menu en ligne */
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block; /* Afficher les éléments de menu côte à côte */
+    margin-right: 20px; /* Marge entre les éléments de menu */
+    position: relative; /* Position relative pour le pseudo-élément */
+}
+
+.menu ul li::after {
+    content: ''; /* Contenu vide */
+    position: absolute; /* Position absolue par rapport au lien */
+    bottom: -5px; /* Décalage vers le bas pour créer la ligne */
+    left: 0; /* Aligner à gauche */
+    width: 100%; /* Pleine largeur */
+    height: 2px; /* Épaisseur de la ligne */
+    background-color: #FFFFFF; /* Couleur de la ligne */
+    visibility: hidden; /* Caché par défaut */
+    transform: scaleX(0); /* Échelle horizontale à 0 */
+    transition: all 0.3s ease-in-out; /* Transition douce */
+}
+
+.menu ul li:hover::after {
+    visibility: visible; /* Rendre visible au survol */
+    transform: scaleX(1); /* Échelle horizontale à 1 */
+}
+
+.menu ul li:last-child {
+    margin-right: 0; /* Supprimer la marge du dernier élément de menu */
+}
+
+.menu ul li a {
+    color: #FFFFFF; /* Couleur du texte */
+    text-decoration: none; /* Supprimer la soulignement des liens */
+    font-size: 18px; /* Taille de la police */
+    font-weight: bold; /* Gras */
+    transition: color 0.3s ease; /* Transition de couleur douce */
+}
 body, html {
     margin: 0;
     padding: 0;
@@ -7,7 +84,7 @@ body, html {
     color: #333; /* Noir */
 }
 
-.container {
+.container1 {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
@@ -59,7 +136,7 @@ tr:hover td {
     padding: 20px 0;
     text-align: center;
     border-radius: 0 0 8px 8px;
-    margin-top: 420px; /* Ajustement de la marge supérieure */
+    margin-top: 200px; /* Ajustement de la marge supérieure */
 }
 
 .contact-footer .container {
