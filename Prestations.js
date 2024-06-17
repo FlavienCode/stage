@@ -7,39 +7,39 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const serviceDetails = {
         "Réparation de Carrosserie": {
-            "description": "Nos services de réparation de carrosserie couvrent tous les aspects, de la réparation des dommages mineurs aux restaurations complètes après un accident. Nous utilisons des techniques de pointe pour garantir que votre véhicule retrouve son état d'origine.",
+            "description": "Nos services de réparation de carrosserie couvrent tous les aspects, de la réparation des dommages mineurs aux restaurations complètes . Nous utilisons des techniques de pointe et des matériaux de haute qualité pour garantir que votre véhicule retrouve son état d'origine après un accident. Nos techniciens qualifiés évaluent les dommages et procèdent à des réparations efficaces, qu'il s'agisse de petites éraflures, de bosses ou de réparations structurelles majeures.",
             "image": "images/reparation de carrosserie.jpg"
         },
         "Peinture Automobile": {
-            "description": "Nous proposons des services de peinture automobile de haute qualité, utilisant des produits et des techniques de pointe pour assurer une finition durable et brillante. Que ce soit pour une retouche ou une peinture complète, votre véhicule sera entre de bonnes mains.",
+            "description": "Nous proposons des services de peinture carrosserie de haute qualité, utilisant des produits et des techniques de pointe pour assurer une finition durable. Que ce soit pour une retouche ou une peinture complète, votre véhicule sera entre de bonnes mains. Nous offrons également des options de peinture personnalisées pour répondre à vos préférences esthétiques, tout en assurant une correspondance parfaite des couleurs avec la teinte d'origine.",
             "image": "images/peintureapres.jpg"
         },
         "Entretien Régulier": {
-            "description": "L'entretien régulier de votre véhicule est essentiel pour assurer sa longévité et ses performances. Nous proposons des forfaits d'entretien qui incluent les vidanges, le remplacement des filtres, la vérification des freins, et plus encore.",
+            "description": "L'entretien régulier de votre véhicule est essentiel pour assurer sa longévité et ses performances. Le remplacement des filtres, la vérification des freins, la rotation des pneus et plus encore. Nos services d'entretien préventif permettent de détecter et de corriger les problèmes potentiels avant qu'ils ne deviennent des réparations coûteuses.",
             "image": "images/revision.jpg"
         },
         "Débosselage Sans Peinture": {
-            "description": "Notre service de débosselage sans peinture répare les petites bosses sans endommager la peinture d'origine du véhicule.",
+            "description": "Notre service de débosselage sans peinture (DSP) répare les petites bosses et les impacts sans endommager la peinture d'origine du véhicule. Cette technique innovante permet de maintenir l'intégrité de la peinture tout en éliminant les imperfections de la carrosserie. Idéale pour les petites bosses causées par la grêle ou les portes de parking.",
             "image": "images/debossage.jpg"
         },
         "Polissage et Lustrage": {
-            "description": "Des services de polissage et de lustrage pour redonner à votre véhicule un aspect neuf et brillant.",
+            "description": "Nos services de polissage et de lustrage redonnent à votre véhicule un aspect neuf et brillant. Le polissage élimine les rayures superficielles et les imperfections de la peinture, tandis que le lustrage applique une couche protectrice pour un éclat durable. Nous utilisons des produits de haute qualité pour garantir un résultat optimal.",
             "image": "images/lustrage.jpg"
         },
         "Remplacement de Vitres": {
-            "description": "Remplacement de tous vitrage sur votre véhicule de manière rapide et efficace, en utilisant des matériaux de haute qualité.",
+            "description": "Nous effectuons le remplacement de tous les vitrages de votre véhicule de manière rapide et efficace, en utilisant des matériaux de haute qualité. Que ce soit pour un pare-brise fissuré, une vitre latérale endommagée ou une lunette arrière brisée, nous assurons un service professionnel pour votre sécurité et votre confort.",
             "image": "images/vitre.jpg"
         },
         "Changement de Pneus": {
-            "description": "Montage de pneus, équilibrage, valve et alignement pour garantir une conduite sûre et confortable.",
+            "description": "Notre service de changement de pneus comprend le montage, l'équilibrage, le remplacement des valves et l'alignement des roues pour garantir une conduite sûre et confortable. Nous offrons une large gamme de pneus adaptés à tous les types de véhicules et aux différentes conditions de conduite.",
             "image": "images/pneus.jpg"
         },
         "Rénovation Phare": {
-            "description": "La rénovation des optiques de phare permet de retrouver la transparence d'origine.",
+            "description": "La rénovation des optiques de phare permet de retrouver la transparence d'origine et d'améliorer la visibilité nocturne. Nos techniciens utilisent des produits et des techniques spécialisés pour éliminer l'opacité et les rayures des phares, assurant ainsi un éclairage optimal et une apparence comme neuve.",
             "image": "images/lavage.jpg"
         },
         "Entretien Climatisation": {
-            "description": "Changement du filtre habitacle et entretien de la climatisation pour assurer un confort optimal dans votre véhicule.",
+            "description": "L'entretien de la climatisation comprend le changement du filtre habitacle, la recharge du gaz réfrigérant et la vérification du bon fonctionnement du système. Ces opérations garantissent un confort optimal dans votre véhicule et prolongent la durée de vie de votre climatisation. Un système de climatisation bien entretenu assure un air frais et pur à l'intérieur de votre voiture.",
             "image": "images/climatisation.jpg"
         }
     };

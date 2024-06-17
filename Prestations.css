@@ -1,4 +1,5 @@
-/* Réinitialisation des marges et des rembourrages */
+/* CSS existant */
+
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +30,7 @@ body {
 }
 
 .header .logo img {
-    width: 200px; /* Largeur du logo */
+    width: 250px; /* Largeur du logo */
     height: auto; /* Hauteur automatique pour conserver les proportions */
 }
 
@@ -75,7 +76,6 @@ body {
     font-weight: bold; /* Gras */
     transition: color 0.3s ease; /* Transition de couleur douce */
 }
-
 
 main {
     padding: 2rem 0;
@@ -129,7 +129,7 @@ h1 {
 }
 
 .service p {
-    color: #ccc;
+    color: #ffffff;
 }
 
 .modal {
@@ -157,6 +157,7 @@ h1 {
     text-align: center;
     animation: modalOpen 0.5s ease-in-out;
 }
+
 @keyframes modalOpen {
     from {
         transform: scale(0.7);
@@ -167,13 +168,13 @@ h1 {
         opacity: 1;
     }
 }
-/* Ajoutez ceci pour styliser l'image dans le modal */
+
 .modal-content img {
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
 }
-/* Carrousel styles */
+
 .carousel {
     position: relative;
     max-width: 100%;
@@ -189,6 +190,7 @@ h1 {
     width: 100%;
     border-radius: 8px;
 }
+
 form {
     margin-top: 20px;
     text-align: left;
@@ -223,8 +225,6 @@ form button {
 form button:hover {
     background-color: #FF4500;
 }
-
-
 
 .close {
     color: #aaa;
@@ -308,3 +308,37 @@ form button:hover {
     color: #1877f2;
 }
 
+/* Media Queries */
+@media (max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .header .logo img {
+        width: 150px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .service h3 {
+        font-size: 1.2rem;
+    }
+    .service p {
+        font-size: 0.9rem;
+    }
+}
