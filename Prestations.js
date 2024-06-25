@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "Entretien Régulier": {
             "description": "L'entretien régulier de votre véhicule est essentiel pour assurer sa longévité et ses performances. Le remplacement des filtres, la vérification des freins, la rotation des pneus et plus encore. Nos services d'entretien préventif permettent de détecter et de corriger les problèmes potentiels avant qu'ils ne deviennent des réparations coûteuses.",
-            "image": "images/revision.jpg"
+            "image": "images/entretien.jpg"
         },
         "Débosselage Sans Peinture": {
             "description": "Notre service de débosselage sans peinture (DSP) répare les petites bosses et les impacts sans endommager la peinture d'origine du véhicule. Cette technique innovante permet de maintenir l'intégrité de la peinture tout en éliminant les imperfections de la carrosserie. Idéale pour les petites bosses causées par la grêle ou les portes de parking.",
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "Entretien Climatisation": {
             "description": "L'entretien de la climatisation comprend le changement du filtre habitacle, la recharge du gaz réfrigérant et la vérification du bon fonctionnement du système. Ces opérations garantissent un confort optimal dans votre véhicule et prolongent la durée de vie de votre climatisation. Un système de climatisation bien entretenu assure un air frais et pur à l'intérieur de votre voiture.",
-            "image": "images/climatisation.jpg"
+            "image": "images/climatisation 2.jpg"
         }
     };
 
